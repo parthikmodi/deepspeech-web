@@ -9,8 +9,10 @@ ruby '2.6.3'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
 
-gem 'speech_to_text', '0.1.7'
+gem 'speech_to_text', '0.1.9'
 gem 'sqlite3'
+gem 'aws-sdk-s3'
+gem 'aws-sdk-transcribeservice'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
